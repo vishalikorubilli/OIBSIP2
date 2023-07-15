@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TemparatureDegreeConverter</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./co.css">
+</head>
+<body>
+  <center><form onsubmit="return false">
+    <pre>
+        <center><h1>Temperature Converter</h1></center>
+
+    <label>Temperature:  </label>   <input id="temp" class="degree">
+    
+    <label>Degree Type:</label>     <select class="degree" id="ind">      <option value="C">Celsius</option><option value="F">Fahrenheit</option><option value="K">Kelvin</option>
+        </select>
+
+    <label>Out Degree:</label>      <select class="degree" id="out">      <option value="C">Celsius</option><option value="F">Fahrenheit</option><option value="K">Kelvin</option>
+        </select>
+    </pre>
+    <center><button onclick="solve()">Convert</button></center>
+
+        <br>
+        <br>
+    <center <label id="ans"></label></center>
+    </form>
+</center> 
+</body>
+</html>
